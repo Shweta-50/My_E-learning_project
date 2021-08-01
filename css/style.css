@@ -1,0 +1,500 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px !important;
+    font-weight: bold;
+    color:#fff!important;
+}
+.nav-link {
+    color:#fff!important;
+    text-align: center;
+    
+    
+}
+.nav-link:hover{
+    
+    background-color: #ff0000!important;
+    border-radius: 4px!important;
+   
+}
+.name:hover{
+    background-color: none!important;    
+}
+
+.coloum{
+    padding-right:0!important;
+    padding-left:0!important;
+}
+
+
+/* .log-btn:hover{
+    background-color: #ff0000!important;
+    border-radius: 5px!important; 
+    color:white!important;
+    
+    } */
+.sign-btn:hover{
+    background-color: #ff0000!important;
+    border-radius: 5px!important;
+    color:white!important;
+}
+.vid-mar-remove{
+    margin: 0px!important;
+    padding: 0px!important;
+    
+    
+}
+.vid-parent{
+    position: relative;
+
+}
+video{
+    width: 100%;
+    height:100%;
+}
+.vid-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 99.4%;
+    width: 100%;
+    background-color: blueviolet;
+    z-index: 1;
+    opacity: 0.5;
+   
+}
+.vid-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color:white;
+    z-index: 2;
+    width: 100%;
+
+}
+.vid-content .btn:hover{
+background-color:#ff0000;
+color:white;
+margin-top:0px;
+
+}
+.my-content1{
+    letter-spacing: 2px; 
+
+}
+.my-content2 {
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    
+
+}
+.card:hover{
+    box-shadow: 0px 0px 20px blue!important;
+}
+.txt-banner{
+    background-color: #ff0000;
+    color:white;
+    margin-top: -5px;
+   
+}
+
+.fa{
+    color:black;
+}
+.vid-content h1{
+    font-size: 50px!important;
+}
+.vid-content p{
+    font-size: 25px!important;
+}
+.vid-content .btn{
+    background-color:#ff0000;
+    color:white;
+}
+.coloum a{
+    margin-left: 40px!important;
+    border-radius: 50px;
+    width: 80px;
+
+}
+.contact .form-group input {
+    border-radius: 50px;
+    
+}
+.contact .form-group textarea {
+    border-radius: 10px;
+}
+.contact .btn {
+    border-radius: 50px;
+    width: 150px;
+    box-shadow: 2px 2px 2px black;
+}
+.details{
+    
+    height: 350px;
+   
+    background-image: url('../images/1.jpg')!important;
+
+    color:white!important;
+    
+}
+.cont{
+    margin-left: 25%;
+}
+.sec-cont{
+    background-image: url('../images/ljuWD8.webp')!important;
+    z-index: 1;
+    
+}
+.footer{
+
+	background-color: black;
+}
+footer .fa{
+	height: 50px;
+	width:50px;
+	border-radius: 50px;
+    border:3px solid blueviolet; 
+    border:none;
+    background: #232b2b;
+	padding-top:9px;
+  
+    
+    
+    transition:0.3s ease all;
+    
+} 
+footer .fa:hover{
+    
+    transform: scale(0.8,0.8) !important;
+    
+    
+}
+.first p{
+    text-align: justify; 
+    margin-left: 70px;
+}
+
+.modal-header{
+    border-bottom: none!important;
+}
+.log-modal{
+    height: 400px!important;
+    background-image: url('../images/form-img.jpg')!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: 100% 100%!important;
+}
+.sign-modal{
+    
+    background-image: url('../images/signup.jpg')!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: 100% 100%!important;
+}
+.modal-footer{
+    border-top: none!important;
+}
+.padding {
+    padding: 5rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+}
+
+.card .card-body {
+    padding: 1rem 1rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+p {
+    font-size: 0.875rem;
+    margin-bottom: .5rem;
+    line-height: 1.5rem;
+}
+
+h4 {
+    line-height: .2 !important;
+}
+
+.profile {
+    margin-top: 16px;
+    margin-left: 11px;
+}
+
+.profile-pic {
+ height:50px;
+  width:50px; 
+  border-radius:50%;
+}
+
+.cust-name {
+    font-size: 18px;
+}
+
+.cust-profession {
+    font-size: 10px;
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+  
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+
+
+
+
+
+ @media screen (max-width:700px){
+
+.custom-nav{
+padding: 10px 20px!important; 
+background-color:red!important;
+margin-right:20px;
+} 
+
+.txt-banner{
+    display: none;
+}
+
+
+.nav-item a {
+    color:#fff!important;
+    text-align: center;
+    border-radius: 50px!important;
+}
+.navbar-expand-lg{
+    z-index: 99;
+    margin-bottom: -100px;
+}
+
+.log-btn:hover{
+    background-color: #ff0000!important;
+    border-radius: 50px!important; 
+    color:white!important;
+    }
+.sign-btn:hover{
+    background-color: #ff0000!important;
+    border-radius: 50px!important;
+    color:white!important;
+}
+.vid-content h1{
+    font-size: 25px!important;
+}
+.vid-content p{
+    font-size: 15px!important;
+}
+.vid-content .btn{
+    background-color:#ff0000;
+    color:white;
+}
+.course_btn{
+
+    width:10rem!important;
+    
+}
+
+ }
+
+ @media (max-width: 576px) { 
+    .card {
+        position: relative;
+        display: flex;
+        width: 288px;
+        margin-right: 12px;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid #d2d2dc;
+        border-radius: 11px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+        box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+    }
+    .nav-link:hover{
+    
+        background-color: #ff0000!important;
+        border-radius: 4px!important;
+        margin-right: 10px!important;
+       
+    }
+    .navbar-nav a{
+        color: white !important;
+    }
+    .name{
+        margin:0 auto!important;
+        margin-bottom:20px !important;
+    }
+   .pop{
+       font-size: 1.5rem!important;
+       
+   }
+   .txt-banner{
+    display: none!important;
+   }
+   .course_btn{
+    
+    width:10rem!important;
+}
+
+   .vid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 97.4%!important;
+    width: 100%;
+    background-color: blueviolet;
+    z-index: 1;
+    opacity: 0.5;
+}
+    .content{
+        position: absolute;
+        top:30%;
+        left:50%;
+        text-align: center;
+        padding:10px;
+        transform: translate(-50%,-50%);
+        color:white;
+        z-index: 2;
+        width: 80%;
+        
+    
+    }
+    .nav-item{
+        margin-top:20px!important;
+    }
+    .navbar-nav{
+        background-color:rgba(0,0,0,0.8);
+       margin:0 !important;
+       padding:0 !important;
+    }
+    .navbar-toggler{
+        margin-top: -35px !important;
+        margin-left: 213px !important;
+    }
+
+    .pop-h{
+        font-size: 25px!important;
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+    }
+    courses{
+        margin-top:-2px !important;;
+    }
+    .courses h1{
+        font-size: 25px!important;
+    }
+    .cont{
+        margin-left: 15%;
+       margin-bottom:2rem;
+       
+    }
+    
+    .details{
+    
+        height: 350px;
+        width: 15rem!important;
+        background-image: url('../images/1.jpg')!important;color:white!important;
+        margin-right:0px;
+        
+    }
+    .sub-cont{
+        margin-right:5px;
+        margin-top:2px;
+    }
+    .first p{
+        text-align:justify; 
+        margin-left: 30px;
+    }
+
+    .vid-content .my-content1{
+        margin-top: 10rem!important;
+       font-size: 15px !important;; 
+    
+    }
+    .vid-content .my-content2 {
+        /* margin-top: 35px!important; */
+        margin-bottom: 0px;
+    }
+    .navbar-brand{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px !important;
+        font-weight: bold;
+        margin-left: -32px;
+        color:#fff!important;
+    }
+    /* .navbar-text{
+        padding-top:0px !important;
+        display: inline!important;
+      
+    } */
+
+    .content h1{
+        font-size:1.5rem;
+        display:block;
+    }
+    .content h4{
+        font-size:1.5rem;
+        margin-top:20px;
+        text-align:center;
+        height:100px;
+        border:2px solid red;
+    }
+    .content{
+        
+    }
+    span.navbar-text.text-white {
+        visibility: hidden;
+    }
+    .vid-content{
+        margin-top:-60px;
+    }
+    .get-btn{
+        
+        border-radius:50px!important;
+        margin-top: -15px!important;
+    }
+    .
+    
+ }
+
+ @media (min-width: 577px) {
+    .detail_card{
+        width: 600px!important;
+        margin-right: 12px!important;
+    } 
+ }
+
+ 
+
+
+
